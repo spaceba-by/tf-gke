@@ -18,3 +18,9 @@ terraform init
 terrafom plan       # validate plan 
 terraform apply
 ```
+
+## get kubectl config
+```sh
+gcloud container clusters list
+gcloud container clusters get-credentials <cludter name> --zone <zone name>
+```
